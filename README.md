@@ -13,36 +13,32 @@ A Python-based smart application that recommends songs based on your **emotions*
 
 
 ## 📁 Project Structure
-emotion-music-recommender/
-│
-├── 📁 data/              
-│   └── sample_input.txt
-│
-├── 📁 models/                  
-│   └── emotion_recognition_model.h5
-│
-├── 📁 src/                         # Source code for the project
-│   ├── __init__.py
-│   ├── main.py                    # Main script to run the app
-│   ├── emotion_detector.py        # Logic for text/facial emotion detection
-│   ├── music_recommender.py       # Spotify recommendation engine
-│   ├── utils.py                   # Helper functions
-│
-├── 📁 notebooks/                  # Jupyter notebooks for exploration or EDA
-│   └── emotion_analysis.ipynb
-│
-├── 📁 static/                     # Static files (if using web app)
-│   └── images/
-│       └── sample_emotions.jpg
-│
-├── 📁 templates/                  # HTML templates if using Flask
-│   └── index.html
-│
-├── .gitignore                     # To ignore unnecessary files/folders
-├── LICENSE                        # License (MIT or others)
-├── README.md                      # Project overview and setup guide
-├── requirements.txt               # List of dependencies
-└── app.py                         # Entry point for the web app
+emotion-music-recommender/  
+├── data/  
+│   └── sample_input.txt  
+├── models/  
+│   └── emotion_recognition_model.h5  
+├── src/  
+│   ├── __init__.py  
+│   ├── main.py  
+│   ├── emotion_detector.py  
+│   ├── music_recommender.py  
+│   └── utils.py  
+├── notebooks/  
+│   └── emotion_analysis.ipynb  
+├── static/  
+│   └── images/  
+│       └── sample_emotions.jpg  
+├── templates/  
+│   └── index.html  
+├── .gitignore  
+├── LICENSE  
+├── README.md  
+├── requirements.txt  
+└── app.py  
+
+
+
 
 ## 🔧 Technologies Used
 
@@ -51,3 +47,30 @@ emotion-music-recommender/
 - **OpenCV + Deep Learning Model** for facial emotion recognition
 - **Spotipy (Spotify API)** for music recommendation
 - (Optional) **Streamlit** or **Tkinter** for UI
+
+## How to Run Locally
+
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/AriyaVerma/emotion-music-recommender.git
+   cd emotion-music-recommender
+2. **Create and activate a virtual environment**
+
+
+3. **Install dependencies**
+4. **Run the app**
+5. **Visit**
+
+
+
+
+## 📚 Future Enhancements
+
+- Support for voice-based emotion detection.
+- Integration with other streaming platforms (YouTube Music, Apple Music).
+- Mobile app version.
+
+## 🤝 Contributing
+
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+
